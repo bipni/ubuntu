@@ -3,14 +3,28 @@
 sudo apt install <package name>
 ```
 
-## Uninstall A Package
+## Uninstall A Package and It's Configuration File
 ```
 sudo apt remove <package name>
 ```
 
+## Uninstall A Package, But Keep the Configuration File
+```
+sudo apt purge <package name>
+```
+
+## After Uninstall A Package, Remove any Leftover Dependencies
+```
+sudo apt autoremove
+```
 ## Get All Packages
 ```
 apt list --installed
+```
+
+## Get All Packages with Name Filter
+```
+apt list --installed 'a*'
 ```
 
 ## Get All Packages Update List
@@ -18,16 +32,7 @@ apt list --installed
 sudo apt update
 ```
 
-## Update A Package
+## Upgrade All Packages
 ```
-sudo snap refresh <package name>
+sudo apt upgrade
 ```
-
-## Update All Package
-```
-sudo snap refresh
-```
-
-## Get Package Information
-```
-snap info <package name>
