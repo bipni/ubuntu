@@ -9,6 +9,7 @@ sudo apt update && sudo apt upgrade -y
 
 echo $'\n'
 
+# Regular
 source ./programs/curl.sh
 source ./programs/git.sh
 source ./programs/vs_code.sh
@@ -21,6 +22,9 @@ source ./programs/insomnia.sh
 source ./programs/node.sh
 source ./programs/yarn.sh
 source ./programs/gnome_tweaks.sh
+
+# Special
+# source ./programs/nvidia.sh
 
 END_TIME=$(date +"%Y-%m-%d %I:%M:%S %p")
 echo "Finished at $END_TIME"$'\n'
