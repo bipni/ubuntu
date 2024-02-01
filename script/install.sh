@@ -2,7 +2,7 @@
 
 START_TIME=$(date +"%Y-%m-%d %I:%M:%S %p")
 
-echo "Just sit back and wait until all the processes is finished"$'\n'
+echo "Just sit back and wait until all the processes are finished"$'\n'
 sleep 3
 
 echo "Started at $START_TIME"$'\n'
@@ -16,6 +16,9 @@ sudo apt update && sudo apt upgrade -y
 echo $'\n'
 
 # Regular
+echo "Starting Programs Installation"$'\n'
+sleep 3
+
 source ./programs/curl.sh
 source ./programs/git.sh
 source ./programs/vs_code.sh
@@ -31,6 +34,8 @@ source ./programs/gnome_tweaks.sh
 source ./programs/vlc.sh
 
 # Special
+# echo "Starting Special Programs Installation"$'\n'
+# sleep 3
 # source ./programs/nvidia.sh
 
 # Post Installation Task
@@ -38,6 +43,13 @@ echo "Starting Post-Installation Tasks"$'\n'
 sleep 3
 
 source ./post-script/games.sh
+
+if ! which zsh &> /dev/null; then
+    source ./terminal-profile/install_powerline.sh
+    source ./terminal-profile/install_terminal.sh
+    source ./terminal-profile/install_profile.sh
+fi
+
 sudo apt autoremove
 
 END_TIME=$(date +"%Y-%m-%d %I:%M:%S %p")

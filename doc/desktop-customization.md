@@ -1,13 +1,5 @@
 # Desktop Customization
 
-## Install Tweaks
-
-```
-sudo add-apt-repository universe
-
-sudo apt install gnome-tweak-tool
-```
-
 ## Extensions
 
 -   Coverflow Alt-Tab
