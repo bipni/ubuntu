@@ -22,6 +22,7 @@ source ./programs/insomnia.sh
 source ./programs/node.sh
 source ./programs/yarn.sh
 source ./programs/gnome_tweaks.sh
+source ./programs/vlc.sh
 
 # Special
 # source ./programs/nvidia.sh
