@@ -32,6 +32,7 @@ source ./programs/node.sh
 source ./programs/yarn.sh
 source ./programs/gnome_tweaks.sh
 source ./programs/vlc.sh
+source ./programs/docker.sh
 
 # Special
 # echo "Starting Special Programs Installation"$'\n'
