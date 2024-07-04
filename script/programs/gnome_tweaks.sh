@@ -10,6 +10,6 @@ else
     echo "$INSTALL_TIME: Installing $NAME"$'\n'
     sudo add-apt-repository universe
     sudo apt update
-    sudo apt install gnome-tweak-tool -y
+    sudo apt install gnome-tweaks -y
     echo $'\n'"$NAME Installed Successfully"$'\n'
 fi

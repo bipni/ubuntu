@@ -19,21 +19,27 @@ echo $'\n'
 echo "Starting Programs Installation"$'\n'
 sleep 3
 
+# Basic Utilities
 source ./programs/curl.sh
 source ./programs/git.sh
+source ./programs/google_chrome.sh
+source ./programs/gnome_tweaks.sh
+source ./programs/vlc.sh
+
+# Development
 source ./programs/vs_code.sh
 source ./programs/sublime_text.sh
 source ./programs/atom.sh
-source ./programs/mongodb.sh
-source ./programs/google_chrome.sh
 source ./programs/postman.sh
 source ./programs/insomnia.sh
 source ./programs/node.sh
 source ./programs/yarn.sh
-source ./programs/gnome_tweaks.sh
-source ./programs/vlc.sh
-source ./programs/docker.sh
-source ./programs/anaconda.sh
+
+# Optional
+# source ./programs/mongodb.sh
+# source ./programs/docker.sh
+# source ./programs/anaconda.sh
+
 
 # Special
 # echo "Starting Special Programs Installation"$'\n'
