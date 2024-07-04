@@ -41,6 +41,7 @@ source ./programs/mongodb_compass.sh
 source ./programs/pgadmin4.sh
 source ./programs/redis_insight.sh
 
+
 # Optional
 # source ./programs/mongodb.sh
 # source ./programs/docker.sh
@@ -51,6 +52,10 @@ source ./programs/redis_insight.sh
 # echo "Starting Special Programs Installation"$'\n'
 # sleep 3
 # source ./programs/nvidia.sh
+
+# ZSH Terminal
+source ./terminal/zsh.sh
+
 
 # Post Installation Task
 echo "Starting Post-Installation Tasks"$'\n'
