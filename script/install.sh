@@ -40,6 +40,7 @@ source ./programs/docker_desktop.sh
 source ./programs/mongodb_compass.sh
 source ./programs/pgadmin4.sh
 source ./programs/redis_insight.sh
+source ./programs/gcloud.sh
 
 
 # Optional
