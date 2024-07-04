@@ -53,22 +53,16 @@ source ./programs/redis_insight.sh
 # sleep 3
 # source ./programs/nvidia.sh
 
-# ZSH Terminal
-source ./terminal/zsh.sh
-
 
 # Post Installation Task
 echo "Starting Post-Installation Tasks"$'\n'
 sleep 3
 
 source ./post-script/games.sh
+source ./post-script/zsh.sh
+source ./post-script/fonts.sh
 
-if ! which zsh &> /dev/null; then
-    source ./terminal-profile/install_powerline.sh
-    source ./terminal-profile/install_terminal.sh
-    source ./terminal-profile/install_profile.sh
-fi
-
+sudo apt install -f
 sudo apt autoremove
 
 END_TIME=$(date +"%Y-%m-%d %I:%M:%S %p")
