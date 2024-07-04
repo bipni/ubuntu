@@ -12,4 +12,6 @@ cd terminal-profile
 ./install_powerline.sh
 ./install_terminal.sh
 ./install_profile.sh
+cd ../
+rm -r terminal-profile
 echo $'\n'"$NAME Installed Successfully"$'\n'
