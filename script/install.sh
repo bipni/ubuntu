@@ -65,6 +65,8 @@ source ./post-script/fonts.sh
 sudo apt install -f
 sudo apt autoremove
 
+ssh-keygen -t ed25519 -C "bipumirja@gmail.com"
+
 END_TIME=$(date +"%Y-%m-%d %I:%M:%S %p")
 echo $'\n'"Finished at $END_TIME"$'\n'
 
