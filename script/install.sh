@@ -25,6 +25,8 @@ source ./programs/git.sh
 source ./programs/google_chrome.sh
 source ./programs/gnome_tweaks.sh
 source ./programs/vlc.sh
+source ./programs/gparted.sh
+source ./programs/screenshot.sh
 
 # Development
 source ./programs/vs_code.sh
@@ -34,6 +36,10 @@ source ./programs/postman.sh
 source ./programs/insomnia.sh
 source ./programs/node.sh
 source ./programs/yarn.sh
+source ./programs/docker_desktop.sh
+source ./programs/mongodb_compass.sh
+source ./programs/pgadmin4.sh
+source ./programs/redis_insight.sh
 
 # Optional
 # source ./programs/mongodb.sh
@@ -41,7 +47,7 @@ source ./programs/yarn.sh
 # source ./programs/anaconda.sh
 
 
-# Special
+# Driver
 # echo "Starting Special Programs Installation"$'\n'
 # sleep 3
 # source ./programs/nvidia.sh
