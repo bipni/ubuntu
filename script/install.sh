@@ -31,7 +31,6 @@ source ./programs/screenshot.sh
 # Development
 source ./programs/vs_code.sh
 source ./programs/sublime_text.sh
-source ./programs/atom.sh
 source ./programs/postman.sh
 source ./programs/insomnia.sh
 source ./programs/node.sh
@@ -43,23 +42,10 @@ source ./programs/redis_insight.sh
 source ./programs/gcloud.sh
 
 
-# Optional
-# source ./programs/mongodb.sh
-# source ./programs/docker.sh
-# source ./programs/anaconda.sh
-
-
-# Driver
-# echo "Starting Special Programs Installation"$'\n'
-# sleep 3
-# source ./programs/nvidia.sh
-
-
 # Post Installation Task
 echo "Starting Post-Installation Tasks"$'\n'
 sleep 3
 
-source ./post-script/games.sh
 source ./post-script/zsh.sh
 source ./post-script/fonts.sh
 
