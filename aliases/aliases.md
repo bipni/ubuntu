@@ -42,6 +42,7 @@ alias autoremove="sudo apt autoremove"
 ```bash
 # python
 alias python="python3"
+alias activate=". ./ENV/bin/activate"
 ```
 
 ### Git
