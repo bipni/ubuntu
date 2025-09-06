@@ -1,38 +1,49 @@
+# `snap` Package Manager Commands
+
 ## Install A Package
-```
+
+```bash
 sudo snap install <package name>
 ```
 
 ## Uninstall A Package
-```
+
+```bash
 sudo snap remove <package name>
 ```
 
 ## Uninstall A Package with Configuration Data
-```
+
+```bash
 sudo snap remove --purge <package name>
 ```
 
-## Get All Packages
+## Get Installed Packages
+
 ```
 snap list
 ```
 
-## Get All Packages Update List
+## Get Installed Packages Update List
+
 ```
 snap refresh --list
 ```
 
-## Update A Package
+## Update A Installed Package
+
 ```
 sudo snap refresh <package name>
 ```
 
-## Update All Package
+## Update All Installed Packages
+
 ```
 sudo snap refresh
 ```
 
 ## Get Package Information
+
 ```
 snap info <package name>
+```
