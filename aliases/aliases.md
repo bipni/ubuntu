@@ -34,6 +34,7 @@ Add the following aliases in .zsh_aliases file
 # ubuntu
 alias update="sudo apt update"
 alias upgrade="sudo apt upgrade"
+alias autoremove="sudo apt autoremove"
 ```
 
 ### Python
