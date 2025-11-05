@@ -56,6 +56,8 @@ alias push="git push"
 alias pull="git pull"
 alias checkout="git checkout"
 alias clone="git clone"
+alias branch="git branch"
+alias switch="git switch"
 ```
 
 ### Node
